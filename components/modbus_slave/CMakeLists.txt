@@ -1,0 +1,1 @@
+idf_component_register(SRCS modbus_slave.c INCLUDE_DIRS include REQUIRES battery_monitor espressif__esp-modbus)
